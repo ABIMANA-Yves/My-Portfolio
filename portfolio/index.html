@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abimana Yves | Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom, #ffffff, #f0faff);
+      color: #212529;
+    }
+    .hero {
+      background: linear-gradient(to right, #1e3c72, #2a5298);
+      color: white;
+      padding: 100px 20px;
+    }
+    .hero img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 5px solid white;
+      transition: transform 0.3s ease-in-out;
+    }
+    .hero img:hover {
+      transform: scale(1.05);
+    }
+    .progress-bar {
+      background-color: #007bff;
+    }
+    .btn-outline-dark:hover {
+      background-color: #007bff;
+      color: #fff;
+    }
+    .section-title {
+      color: #007bff;
+      margin-top: 60px;
+      margin-bottom: 20px;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    }
+    .card {
+      transition: all 0.3s ease;
+    }
+    footer {
+      background: #1e3c72;
+      color: white;
+      padding: 20px 0;
+    }
+    .contact-links a {
+      display: inline-block;
+      margin-bottom: 5px;
+      word-break: break-word;
+      color: #007bff;
+    }
+    .contact-links a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <section class="hero text-center">
+    <img src="PXL_20250425_104648594.PORTRAIT.jpg" alt="Abimana Yves">
+    <h1 class="mt-4">Abimana Yves</h1>
+    <p>Software Developer | YouTuber</p>
+    <div class="mt-3">
+      <a href="#projects" class="btn btn-outline-light me-2">View Projects</a>
+      <a href="ABIMANA_YVES.pdf" download class="btn btn-outline-dark">Download CV</a>
+    </div>
+  </section>
+
+  <div class="container">
+    <h2 class="section-title">About Me</h2>
+    <p data-aos="fade-up">Experienced Software Developer with expertise in design, installation, testing and maintenance of software systems. Equipped with a diverse and promising skill-set. Proficient in various platforms and programming languages. Experienced with cutting-edge development tools and procedures.</p>
+
+    <h2 class="section-title">Skills</h2>
+    <h5>Frontend</h5>
+    <div class="progress mb-3" data-aos="fade-right"><div class="progress-bar" style="width:95%">HTML</div></div>
+    <div class="progress mb-3" data-aos="fade-right"><div class="progress-bar" style="width:95%">CSS</div></div>
+    <div class="progress mb-3" data-aos="fade-right"><div class="progress-bar" style="width:85%">JavaScript</div></div>
+    <div class="progress mb-3" data-aos="fade-right"><div class="progress-bar" style="width:90%">Bootstrap</div></div>
+    <div class="progress mb-3" data-aos="fade-right"><div class="progress-bar" style="width:90%">Vue.js</div></div>
+    <h5 class="mt-4">Backend</h5>
+    <div class="progress mb-3" data-aos="fade-left"><div class="progress-bar" style="width:90%">PHP</div></div>
+    <div class="progress mb-3" data-aos="fade-left"><div class="progress-bar" style="width:90%">Node.js</div></div>
+    <div class="progress mb-3" data-aos="fade-left"><div class="progress-bar" style="width:87%">Laravel</div></div>
+
+    <h2 class="section-title" id="projects">Projects</h2>
+    <div class="row">
+      <div class="col-md-6 mb-4" data-aos="fade-up">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Super School</h5>
+            <p class="card-text">A comprehensive software solution for educational institutions to manage admin and academics.</p>
+            <a href="https://github.com/ABIMANA-Yves/super-school" class="btn btn-outline-dark" target="_blank">View on GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 mb-4" data-aos="fade-up">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">AY Tickets</h5>
+            <p class="card-text">An online ticketing system for managing and selling event tickets easily.</p>
+            <a href="https://github.com/ABIMANA-Yves/AY-Tickets" class="btn btn-outline-dark" target="_blank">View on GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 mb-4" data-aos="fade-up">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Language Translator</h5>
+            <p class="card-text">Software that supports the process of transferring the meaning of a message from one language to another.</p>
+            <a href="https://github.com/ABIMANA-Yves/language-translator" class="btn btn-outline-dark" target="_blank">View on GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 mb-4" data-aos="fade-up">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Weather App</h5>
+            <p class="card-text">Predicts the conditions of the atmosphere for a given location and time using science and technology.</p>
+            <a href="https://github.com/ABIMANA-Yves/Weather-App" class="btn btn-outline-dark" target="_blank">View on GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 mb-4" data-aos="fade-up">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">English Dictionary</h5>
+            <p class="card-text">A mobile or web app providing definitions, explanations, and related information for English words.</p>
+            <a href="https://github.com/ABIMANA-Yves/English-Dictionary" class="btn btn-outline-dark" target="_blank">View on GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h2 class="section-title">Contact</h2>
+    <div class="contact-links">
+      <p><strong>Email:</strong> <a href="mailto:yvesabimana0@gmail.com">yvesabimana0@gmail.com</a></p>
+      <p><strong>Call / WhatsApp:</strong> <a href="tel:+250729598007">+250 729 598 007</a></p>
+      <p><strong>GitHub:</strong> <a href="https://github.com/ABIMANA-Yves" target="_blank">github.com/ABIMANA-Yves</a></p>
+      <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/abimana-yves-788917363/" target="_blank">abimana-yves on LinkedIn</a></p>
+      <p><strong>YouTube:</strong> <a href="https://www.youtube.com/@abyzone1" target="_blank">@abyzone1</a></p>
+      <p><strong>Instagram:</strong> <a href="http://instagram.com/yves.abimana" target="_blank">@yves.abimana</a></p>
+    </div>
+  </div>
+
+  <footer class="text-center">
+    <p>&copy; 2025 Abimana Yves</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      disable: function() {
+        return window.innerWidth < 768;
+      }
+    });
+  </script>
+</body>
+</html>
